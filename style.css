@@ -26,7 +26,7 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 0;
-  word-spacing: 65px;
+  word-spacing: 75px;
   text-align: center;
 }
 
@@ -320,6 +320,49 @@ body {
   font-weight: bold;
 }
 
+#Gallery{
+  margin-top: 40px;
+}
+.gallerycontainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  padding: 0px 2% 0px 2%;
+}
+
+.imagebox{
+  width: 31%;
+  height: 250px;
+  background: #efefef;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 3px solid #080706;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+.galleryboximages{
+  width: 100%;
+  height: 100%;
+}
+
+.imagebox:hover{
+  transform: scale(1.10);
+}
+
+.endbar p{
+  width: 100%;
+  height: 30px;
+  background-color: #080706;
+  margin-top: 30px;
+  text-align: center;
+  color: #d1b280;
+  margin-bottom: 0;
+}
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -386,6 +429,10 @@ body {
 
   .quotetext2{
     font-size: 21px;
+  }
+
+  .imagebox{
+    width: 95%;
   }
 
   
@@ -455,6 +502,10 @@ body {
     width: 70%
   }
 
+  .imagebox{
+    width: 46%;
+  }
+
   
 
   @keyframes downAnimee {
@@ -467,7 +518,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /*Navigation bar coding*/
   .navtoplist {
-    word-spacing: 15px;
+    word-spacing: 25px;
   }
   /*end of naviation coding*/
 
@@ -498,6 +549,10 @@ body {
 
   .quotebox{
     width: 40%
+  }
+
+  .imagebox{
+    width: 46%;
   }
 
   @keyframes downAnimeee {
