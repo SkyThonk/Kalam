@@ -320,21 +320,7 @@ body {
   font-weight: bold;
 }
 
-.storycontainer{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-  /* padding: 5%; */
-}
 
-.videocontainer{
-  box-sizing: border-box;
-  width: 50%;
-  text-align: center;
-}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /*Navigation bar coding*/
@@ -402,9 +388,7 @@ body {
     font-size: 21px;
   }
 
-  .videocontainer{
-    width: 90%;
-  }
+  
 
   @keyframes downAnime {
     50% {
@@ -471,9 +455,7 @@ body {
     width: 70%
   }
 
-  .videocontainer{
-    width: 90%;
-  }
+  
 
   @keyframes downAnimee {
     50% {
